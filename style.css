@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+#nav-bar{
+    margin-top: 20px;
+    padding: 50px 20px 10px 0px;
+}
+li{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-right: 100px;
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    color: #575757;
+    font-weight: 700;
+    font-stretch:ultra-expanded;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color:#707070;
+}
+h3{
+    font-size: 28px;
+    font-weight: 900;
+}
+h5{
+    font-size: 20px;
+    color:#828282;
+}
+p{
+    font-size: 18px;
+}
+#first-section{
+    /*This class is only for identifying first section and to use in Home menu*/
+    padding: 10px;
+}
+.flexible-container{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+.orange-color{
+    color: orange;
+}
+.text-half{
+    width: 50%;
+    margin-top: 10 px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+.text-half p{
+    text-align:justify;
+}
+.image-half{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 10px; 
+}
+#image-01{
+    width: 105%;
+    height:100%;
+}
+#image-02{
+    padding-left:20%;
+    height: auto;
+    width: 50%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( to right, orange, rgba(255, 0, 0, 0.849));
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+#mid-section{
+    background-image: url(images/shapes/7.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+}
+#last-section{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+}
+#product-intro{
+    text-align: center;
+    padding: 0 23em;  
+}
+.fruit{
+    
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10%;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 25px 25px;
+    border-image-slice: 1;
+    height:30em;
+    width: auto;
+}
+.fruit img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10%; 
+}
+
+#reviews{
+    text-align: center;
+    margin-top: 100px;
+}
+.user{
+    padding: 20px 50px;
+}
+.social{
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px 10px 10px 40px;
+    width: 50%;
+}
+.social h2{
+    font-size: 48px;
+    color:black;
+}
+
+footer{ background-color: black;
+    color: rgb(221, 215, 215);
+    text-align: center;
+    padding: 20px 100px 120px 100px;
+} 
+footer h3{
+    font-size: 30;
+    font-weight: 900;
+    color: rgb(82, 79, 79); 
+}
+footer p{
+    font-size: 16;
+}
